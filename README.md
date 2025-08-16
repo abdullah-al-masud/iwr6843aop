@@ -10,7 +10,7 @@ There are two phases.
 2. Setup data collection config and start collecting
 
 
-### flash data collection program to the sensor:
+### Flash data collection program to the sensor:
 <img src="images/iwr6843aopevm-switches.png" alt="Alt text" width="600">
 
 <img src="images/iwr6843aopevm-modes.png" alt="Alt text" width="600">
