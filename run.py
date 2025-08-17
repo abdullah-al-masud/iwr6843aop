@@ -48,14 +48,14 @@ def main():
                 if chunk:
                     _, _, _, numDetObj, _, _, x_array, y_array, \
                         z_array, v_array, range_array, azimuth_array, \
-                            elevAngle_array, SNR_array, noise_array = parser_one_mmw_demo_output_packet(chunk, len(chunk))
+                            elevAngle_array, snr_array, noise_array = parser_one_mmw_demo_output_packet(chunk, len(chunk))
                     for obj in range(numDetObj):
                         datadict = {
                             'frame': frame, 'x(m)': x_array[obj], 'y(m)': y_array[obj], 'z(m)': z_array[obj],
                             'velocity(m/s)': v_array[obj], 'range(m)': range_array[obj],
                             'azimuth(deg)': azimuth_array[obj], 'elevation(deg)': elevAngle_array[obj],
-                            'SNR(dB)': SNR_array[obj] / 10, 'noise(dB)': noise_array[obj] / 10,
-                            'signal(dB)': SNR_array[obj] / 10 + noise_array[obj] / 10}
+                            'SNR(dB)': snr_array[obj] / 10, 'noise(dB)': noise_array[obj] / 10,
+                            'signal(dB)': snr_array[obj] / 10 + noise_array[obj] / 10}
                         if keys is None:
                             keys = datadict.keys()
                             f.write(','.join(keys) + '\n')
