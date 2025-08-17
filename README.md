@@ -1,7 +1,8 @@
 # mmWave sensor IWR6843AOPEVM
 <img src="images/iwr6843aopevm-topview.png" alt="Alt text" width="800">
 
-user guide: https://www.ti.com/lit/pdf/SWRU546
+- user guide: https://www.ti.com/lit/pdf/SWRU546
+- If you want to understand radar principles and basics, check [this](radar-basics.md) out
 
 ## Start up process
 
