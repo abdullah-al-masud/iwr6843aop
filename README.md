@@ -65,7 +65,7 @@ Sensing Estimator cloud: https://dev.ti.com/gallery/view/mmwave/mmWaveSensingEst
 
 ### SDK installation:
 1. Download the sdk from https://www.ti.com/tool/MMWAVE-SDK#downloads
-2. On ubuntu, install additional libraries `sudo apt-get install libc6:i386 libgtk2.0-0:i386 libxtst6:i386`  (source: https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/759934/linux-mmwave-sdk-cannot-install-mmwave-sdk-in-linux)
+2. On 64bit ubuntu, install additional libraries `sudo apt-get install libc6:i386 libgtk2.0-0:i386 libxtst6:i386`  (source: https://e2e.ti.com/support/sensors-group/sensors/f/sensors-forum/759934/linux-mmwave-sdk-cannot-install-mmwave-sdk-in-linux)
 
 
 ### Data acquisition python script:
