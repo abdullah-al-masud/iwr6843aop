@@ -77,6 +77,36 @@ Sensing Estimator cloud: https://dev.ti.com/gallery/view/mmwave/mmWaveSensingEst
 - Run `run.py` script to start data acquisition from the ternimal
 - Press Ctrl+C to exit the application of data acquisition
 
+## A few scientific works related to radar sensing
+- Pose Estimation:
+    - mRI:
+        - paper link: https://arxiv.org/abs/2210.08394
+        - github repo: https://github.com/SizheAn/mRI
+    - mmFi:
+        - paper link: https://arxiv.org/abs/2305.10345
+        - github repo: https://github.com/ybhbingo/MMFi_dataset
+    - MiliPoint:
+        - paper link: https://arxiv.org/abs/2309.13425
+        - github repo: https://github.com/yizzfz/MiliPoint
+    - MARS:
+        - paper link: https://dl.acm.org/doi/10.1145/3477003
+        - github repo: https://github.com/SizheAn/MARS
+    - HuPR:
+        - paper link: https://arxiv.org/abs/2210.12564
+        - github repo: https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar
+
+- Activity recognition:
+    - RadHAR:
+        - paper link: https://dl.acm.org/doi/10.1145/3349624.3356768
+        - github repo: https://github.com/nesl/RadHAR
+    - CubeLearn:
+        - paper link: https://arxiv.org/abs/2111.03976
+        - github repo: https://github.com/zhaoymn/cubelearn
+    - Datasets from pose estimation:
+        - mRI
+        - MMFi
+        - MiliPoint
+        - HuPR
 
 
 ## Miscellaneous
